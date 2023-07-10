@@ -71,42 +71,50 @@ console.log(number1+number2) */
 
 /*---------------------Operators in javascript---------------*/
 
-// arithmetic operators
-var a=50
-var b=5
-console.log("The value of a+b is: ",a+b)
-console.log("The value of a-b is: ",a-b)
-console.log("The value of a*b is: ",a*b)
-console.log("The value of a/b is: ",a/b)
+// // arithmetic operators
+// var a=50
+// var b=5
+// console.log("The value of a+b is: ",a+b)
+// console.log("The value of a-b is: ",a-b)
+// console.log("The value of a*b is: ",a*b)
+// console.log("The value of a/b is: ",a/b)
 
-//logical operators
-// logical AND
-console.log(true && true)
-console.log(true && false)
-console.log(false && false)
+// //logical operators
+// // logical AND
+// console.log(true && true)
+// console.log(true && false)
+// console.log(false && false)
 
-// logical OR
-console.log(true || true)
-console.log(true || false)
-console.log(false || false)
+// // logical OR
+// console.log(true || true)
+// console.log(true || false)
+// console.log(false || false)
 
-//logical NOT
-console.log(!false)
-console.log(!true)
+// //logical NOT
+// console.log(!false)
+// console.log(!true)
 
-// assignment operators
-var a=70
-var c=a
-console.log(a==c)
-console.log(c+=6)
-console.log(c-=6)
-console.log(c*=6)
-console.log(c/=6)
+// // assignment operators
+// var a=70
+// var c=a
+// console.log(a==c)
+// console.log(c+=6)
+// console.log(c-=6)
+// console.log(c*=6)
+// console.log(c/=6)
 
-//comparison operators
-var d=90
-var e=100
-console.log(d>e)
-console.log(d<e)
-console.log(d<=e)
-console.log(d>=e)
+// //comparison operators
+// var d=90
+// var e=100
+// console.log(d>e)
+// console.log(d<e)
+// console.log(d<=e)
+// console.log(d>=e)
+
+/** -----------------------Functions in Javascript */
+function avg(a, b) {
+    c = (a + b) / 2
+    return c
+}
+c1 = avg(1, 2)
+console.log(c1)
