@@ -142,7 +142,7 @@ console.log(number1+number2) */
 // }
 
 /**---------------------Loops -------- */
-var arr=[1,2,3,4,5,6,7,8,9]
+// var arr=[1,2,3,4,5,6,7,8,9]
 // console.log(arr)
 // for (var i=0;i<arr.length;i++){
 //     console.log(arr[i])
@@ -152,14 +152,32 @@ var arr=[1,2,3,4,5,6,7,8,9]
 //     console.log(element)
 // })
 
-let j=0
-while(j<arr.length){
-    console.log(arr[j])
-    j++
+// let j=0
+// while(j<arr.length){
+//     console.log(arr[j])
+//     j++
+// }
+
+// let i=0
+// do{
+//     console.log(arr[i])
+//     i++
+// } while(i<arr.length)
+
+/**-------------------Break and continue------------ */
+var arr=[1,2,3,4,5,6,7]
+for(var i=0;i<arr.length;i++){
+    if(i==2){
+        break
+    }
+    console.log(arr[i])
 }
 
-let i=0
-do{
+var arr=[1,2,3,4,5,6,7]
+for(var i=0;i<arr.length;i++){
+    if(i==2){
+        continue
+    }
     console.log(arr[i])
-    i++
-} while(i<arr.length)
+}
+/**-------------------Array methods------------ */
