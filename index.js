@@ -120,23 +120,46 @@ console.log(number1+number2) */
 // console.log(c1)
 
 /** -----------------------Conditionals in Javascript */
-function age(a){
-    if (a>18){
-        console.log("You can drink")
-    }
-    else{
-        console.log('You cannot drink')
-    }
-}(
-val=age(19))
+// function age(a){
+//     if (a>18){
+//         console.log("You can drink")
+//     }
+//     else{
+//         console.log('You cannot drink')
+//     }
+// }(
+// val=age(19))
 
-// if-else ladder
-a=67
-if (a>60){
-    console.log("You can drink, you are old")
+// // if-else ladder
+// a=67
+// if (a>60){
+//     console.log("You can drink, you are old")
+// }
+// else if(a>40){
+//     console.log('Oh you are over 40')}
+// else{
+//     console.log('You are younger than 60 and 40')
+// }
+
+/**---------------------Loops -------- */
+var arr=[1,2,3,4,5,6,7,8,9]
+// console.log(arr)
+// for (var i=0;i<arr.length;i++){
+//     console.log(arr[i])
+// }
+
+// arr.forEach(function(element){
+//     console.log(element)
+// })
+
+let j=0
+while(j<arr.length){
+    console.log(arr[j])
+    j++
 }
-else if(a>40){
-    console.log('Oh you are over 40')}
-else{
-    console.log('You are younger than 60 and 40')
-}
+
+let i=0
+do{
+    console.log(arr[i])
+    i++
+} while(i<arr.length)
