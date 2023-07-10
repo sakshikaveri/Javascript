@@ -112,9 +112,31 @@ console.log(number1+number2) */
 // console.log(d>=e)
 
 /** -----------------------Functions in Javascript */
-function avg(a, b) {
-    c = (a + b) / 2
-    return c
+// function avg(a, b) {
+//     c = (a + b) / 2
+//     return c
+// }
+// c1 = avg(1, 2)
+// console.log(c1)
+
+/** -----------------------Conditionals in Javascript */
+function age(a){
+    if (a>18){
+        console.log("You can drink")
+    }
+    else{
+        console.log('You cannot drink')
+    }
+}(
+val=age(19))
+
+// if-else ladder
+a=67
+if (a>60){
+    console.log("You can drink, you are old")
 }
-c1 = avg(1, 2)
-console.log(c1)
+else if(a>40){
+    console.log('Oh you are over 40')}
+else{
+    console.log('You are younger than 60 and 40')
+}
