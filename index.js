@@ -165,19 +165,61 @@ console.log(number1+number2) */
 // } while(i<arr.length)
 
 /**-------------------Break and continue------------ */
-var arr=[1,2,3,4,5,6,7]
-for(var i=0;i<arr.length;i++){
-    if(i==2){
-        break
-    }
-    console.log(arr[i])
-}
+// var arr=[1,2,3,4,5,6,7]
+// for(var i=0;i<arr.length;i++){
+//     if(i==2){
+//         break
+//     }
+//     console.log(arr[i])
+// }
 
-var arr=[1,2,3,4,5,6,7]
-for(var i=0;i<arr.length;i++){
-    if(i==2){
-        continue
-    }
-    console.log(arr[i])
-}
+// var arr=[1,2,3,4,5,6,7]
+// for(var i=0;i<arr.length;i++){
+//     if(i==2){
+//         continue
+//     }
+//     console.log(arr[i])
+//}
 /**-------------------Array methods------------ */
+
+// var arr=[1,2,3,4,5,6,7]
+// console.log(arr.length)
+// console.log(arr)
+// val=arr.pop()
+// console.log('removed item:',val)
+// console.log(arr)
+// val2=arr.shift()
+// console.log('removed item:',val2)
+// console.log(arr)
+// arr.unshift(500)
+// console.log(arr)
+
+// let mystring='sakshi is a good good girl'
+// console.log(mystring.slice(1,4))
+// console.log(mystring.replace('girl','boy'))
+let myDate= new Date()
+console.log(myDate)
+
+/**------------------------------DOM Manipulations------------------------ */
+
+// par=document.getElementById('Click').click()
+// par=document.getElementById('Click').style.border='2px solid blue'
+// par=document.getElementById('Click').style.background='brown'
+
+// let elemClass = document.getElementsByClassName("container")
+// console.log(elemClass);
+// // elemClass[0].style.background = "yellow";
+// elemClass[0].classList.add("bg-primary")
+// elemClass[0].classList.add("text-success")
+
+// tn = document.getElementsByTagName('div')
+// console.log(tn)
+// createdElement = document.createElement('p');
+// createdElement.innerText = "This is a created para";
+// tn[0].appendChild(createdElement);
+// createdElement2 = document.createElement('b');
+// createdElement2.innerText = "This is a created bold";
+// tn[0].replaceChild(createdElement2, createdElement);
+
+
+
