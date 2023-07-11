@@ -221,5 +221,57 @@ console.log(myDate)
 // createdElement2.innerText = "This is a created bold";
 // tn[0].replaceChild(createdElement2, createdElement);
 
+// Selecting using Query
+// sel = document.querySelector('.container')
+// console.log(sel)
+// sel = document.querySelectorAll('.container')
+// console.log(sel)
 
+/**---------------Events------------- */
+// function clicked(){
+//         console.log('The button was clicked')
+//  }
 
+//  window.onload = function(){
+//         console.log('The document was loaded')    
+//  }
+
+// firstContainer.addEventListener('click', function(){
+//         document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
+//         console.log("Clicked on Container")
+// })
+// firstContainer.addEventListener('mouseover', function(){
+//         console.log("Mouse on Container")
+// })
+
+// firstContainer.addEventListener('mouseout', function(){
+//     console.log("Mouse out of Container");
+// })
+
+// let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+// firstContainer.addEventListener('mouseup', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+//     console.log("Mouse up when clicked on Container");
+// })
+
+// firstContainer.addEventListener('mousedown', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
+//     console.log("Mouse down when clicked on Container");
+// })
+
+// Arrow Functions
+// function summ(a, b){
+//     return a+b;
+// }
+// summ = (a,b)=>{
+//     return a+b;
+// }
+
+logKaro = ()=>{
+    document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired</b>"
+    console.log("I am your log")
+}
+// SetTimeout and setinterval
+// clr = setTimeout(logKaro, 5000);
+// clr = setInterval(logKaro, 2000);
+// use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
