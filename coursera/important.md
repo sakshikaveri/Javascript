@@ -82,3 +82,6 @@ Generally, if else is better suited if there is a *binary choice* in the conditi
 However, if there are a lot of possible outcomes, it is best practice to use a switch statement because it is easier less verbose.
 
 i always forget break in switch
+
+**Function**
+function declaration (build) and function invocation (call)
