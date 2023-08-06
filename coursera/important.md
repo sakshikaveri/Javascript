@@ -67,3 +67,18 @@ so that it can run the + operator on disparate data types.
 100=='100' will return true because the equality operators only compares the values
 and not the data type
 wherein === strict equality operators checks both value and data type.
+Operator associativity determines how the precedence works when the code uses operators with the same precedence.
+
+There are two kinds: 
+
+left-to-right associativity
+
+right-to-left associativity
+
+For example, the assignment operator is right-to-left associative, while the greater than operator is left-to-right associative:
+
+**Conditional statements:**
+Generally, if else is better suited if there is a *binary choice* in the condition.
+However, if there are a lot of possible outcomes, it is best practice to use a switch statement because it is easier less verbose.
+
+i always forget break in switch
