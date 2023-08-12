@@ -351,10 +351,74 @@ console.log(test)
 //type error
 // (5).pop  //array method on a number
 
-try{
-    console.log(c+d)
+// try{
+//     console.log(c+d)
+// }
+// catch(err){
+//     console.log("This is a message thrown for error")
+// }
+// console.log("The code didn't stop.")
+
+// console.log(username) reference error
+// var any "Hi";
+// console.log(any) syntax error
+// 'hello'.pop()  type error
+
+// console.log((10).toString(2)); // '1010'
+// console.log((10).toString(8)); // '12'
+// console.log((10).toString(100)); // 'range error'
+
+// var a;
+// console.log(a)  //undefined
+// var student={
+//     scores:100
+// }
+// console.log(student.Scores)  //undefined
+// var letters='abc';
+// console.log(letters.match(/d/))  //null
+// var b=""
+// console.log(b) //empty string
+
+
+// function addTwoNums(a,b){
+    
+//     try{
+//         if (typeof(a)!='number'){
+//             throw new ReferenceError('the first argument is not a number')
+//         }
+//         else if(typeof(b)!='number'){
+//             throw new ReferenceError('the second argument is not a number')
+//         }
+//         else{
+//             console.log(a+b)
+//         }
+//     }
+//     catch(err){
+//         console.log("Error!", err)
+//     }
+// }
+// addTwoNums(5,"5")
+// console.log("It still works")
+
+// Defensive programming
+function letterFinder(word, match) {
+    var condition1= typeof(word) == 'string' && word.length >= 2
+    var condition2= typeof(match)=='string' && match.length==1
+    if (condition1==true && condition2 == true){
+        for(var i = 0; i < word.length; i++) {
+        if(word[i] == match) {
+            //if the current character at position i in the word is equal to the match
+            console.log('Found the', match, 'at', i)
+        } 
+        else {
+            console.log('---No match found at', i)
+        }
+    }
+
+    }
+    else{
+        console.log("Please pass correct arguments to the function.")
+    }
+    
 }
-catch(err){
-    console.log("This is a message thrown for error")
-}
-console.log("The code didn't stop.")
+letterFinder("cat", "c")
