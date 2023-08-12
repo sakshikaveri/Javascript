@@ -343,3 +343,18 @@ clothes.dryclean()
 var test=typeof(function abc(){console.log('abc')})
 console.log(test)
 
+// errors
+// reference error
+// console.log(c+d) //ReferenceError: c is not defined
+//syntax error
+// var a="hell; SyntaxError: Invalid or unexpected token
+//type error
+// (5).pop  //array method on a number
+
+try{
+    console.log(c+d)
+}
+catch(err){
+    console.log("This is a message thrown for error")
+}
+console.log("The code didn't stop.")
